@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+  
+}
+
+.sidebar{
+    flex: 1 1 auto;
+}
+.logo{
+    background-color: black;
+    border: solid black 1px;
+    opacity: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+}
+.logo-img{
+    width: 10%;
+    height: 20%;
+}
+.content{
+    flex: 4 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15%;
+    justify-content: space-evenly;
+    align-items: center;
+}
